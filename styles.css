@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*
+{
+    font-family: 'kanit', sans-serif ;
+}
+
+.start-page
+{
+    background-color: black;
+    
+}
+
+.icon-color
+{
+    color: white;
+}
+
+.start-about-card-color
+{
+    background: linear-gradient(180deg, #272626 30.73%, rgba(38, 38, 38, 0.00) 100%);
+}
+
+hr
+{
+    background-color: #272626;
+}
+
+.card {
+    display: flex;
+    min-width: 95vw;
+    max-width: 95vw;
+    min-height: 55vh;
+    max-height: 55vh;
+    background-color: #282828;
+    border-radius: 5rem;
+}
+
+.select-container
+{
+    display: flex;
+    position: relative;
+}
+
+.select-box
+{
+    border: none;
+    padding: 0 0.5rem 0 0.25rem;
+    width: 100%;
+    color: #A39A9A;
+}
+
+

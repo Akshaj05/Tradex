@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="output.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script
+      type="text/javascript"
+      src="https://s3.tradingview.com/tv.js"
+    ></script>
+
+    <script src="jquery-3.7.1.min (1).js"></script>
+  </head>
+  <body class="bg-[#242121]">
+    <!-- Mobile Nav -->
+    <nav
+      class="min-w-full min-h-[10vh] bg-[#2D2C2C] flex flex-row justify-center content-end text-white text-[3ch] md:text-[4ch] lg:hidden"
+    >
+      <i class="fa-solid fa-bars icon-color my-auto ms-5" id="menu-icon"></i>
+      <a href="#" class="my-auto mx-auto">
+        <i class="icon fa-brands fa-slack icon-color"></i> Tradex
+      </a>
+      <div
+        class="w-[6.06vh] h-[6.06vh] my-auto me-4 opacity-60 bg-neutral-950 rounded-full"
+      ></div>
+    </nav>
+    <div
+      class="min-h-[90vh] min-w-full bg-[#2D2C2C] menu-list hidden"
+      id="menu-list"
+    >
+      <ul class="text-center text-[#A39A9A] text-[3ch] py-28">
+        <li class="p-[2rem]">
+          <a href="home_pg.html">Home</a>
+        </li>
+        <li class="p-[2rem]">
+          <a href="market_graph.html">Market Graph</a>
+        </li>
+        <li class="p-[2rem]">
+          <a href="market_data_pg.html">Market Data</a>
+        </li>
+        <li class="p-[2rem]">
+          <a href="forex_pg.html">Cross rates</a>
+        </li>
+        <li class="p-[2rem] text-white">
+          <a href="#">Cryptocurrency</a>
+        </li>
+        <hr class="max-w-[10vw] mx-auto" />
+        <li class="p-[2rem]">
+          <a href="aboutUs_pg.html">About Us</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Nav Bar -->
+    <nav
+      class="hidden lg:flex lg:min-w-full lg:min-h-[10vh] lg:bg-[#2D2C2C] lg:justify-between"
+    >
+      <a href="#" class="my-auto ms-11 text-[3ch] text-white">
+        <i class="icon fa-brands fa-slack icon-color"></i>
+        Tradex
+      </a>
+      <div class="text-[#ABA2A2] text-[2ch] flex flex-row me-11">
+        <div
+          class="w-[6.06vh] h-[6.06vh] my-auto me-4 opacity-60 bg-neutral-950 rounded-full"
+        ></div>
+        <h2 class="self-center">Your Name</h2>
+      </div>
+    </nav>
+    <!-- sidebar & content Area-->
+    <div class="flex flex-row">
+      <!-- sidebar -->
+      <section
+        class="hidden lg:block lg:min-h-[90vh] lg:min-w-[14vw] lg:max-w-[12vw] lg:bg-[#2D2C2C]"
+      >
+        <ul class="text-left text-[#A39A9A] text-[1.2rem] pt-28">
+          <li class="p-[2rem] text-white">
+            <a href="#">Home</a>
+          </li>
+          <li class="p-[2rem]">
+            <a href="market_graph.html">Market Graph</a>
+          </li>
+          <li class="p-[2rem]">
+            <a href="market_data_pg.html">Market Data</a>
+          </li>
+          <li class="p-[2rem]">
+            <a href="forex_pg.html">Cross rates</a>
+          </li>
+          <li class="p-[2rem]">
+            <a href="crypto_pg.html">Cryptocurrency</a>
+          </li>
+          <hr class="max-w-[10vw] mx-auto" />
+          <li class="p-[2rem]">
+            <a href="aboutUs_pg.html">About Us</a>
+          </li>
+        </ul>
+      </section>
+      <!-- content -->
+      <section
+        class="min-w-full min-h-[90vh] max-w-full lg:min-w-[86vw] lg:max-w-[86vw] bg-[#242121] text-white flex flex-col"
+      >
+        <h1 class="text-[3ch] text-center my-10">Home</h1>
+      </section>
+    </div>
+
+    <script src="jquery_animations.js"></script>
+  </body>
+</html>
