@@ -648,6 +648,14 @@ video {
   z-index: 20;
 }
 
+.z-\[-1\] {
+  z-index: -1;
+}
+
+.-z-50 {
+  z-index: -50;
+}
+
 .m-0 {
   margin: 0px;
 }
@@ -1059,6 +1067,22 @@ video {
   min-height: 100vh;
 }
 
+.min-h-\[20vh\] {
+  min-height: 20vh;
+}
+
+.min-h-\[40vh\] {
+  min-height: 40vh;
+}
+
+.min-h-\[30vh\] {
+  min-height: 30vh;
+}
+
+.min-h-\[35vh\] {
+  min-height: 35vh;
+}
+
 .w-1 {
   width: 0.25rem;
 }
@@ -1201,6 +1225,10 @@ video {
 
 .max-w-lg {
   max-width: 32rem;
+}
+
+.max-w-\[35ch\] {
+  max-width: 35ch;
 }
 
 .border-collapse {
@@ -1416,6 +1444,11 @@ video {
 
 .border {
   border-width: 1px;
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-\[\#1FAD1C\] {
@@ -1887,6 +1920,38 @@ video {
   line-height: 1rem;
 }
 
+.text-\[40ch\] {
+  font-size: 40ch;
+}
+
+.text-\[1ch\] {
+  font-size: 1ch;
+}
+
+.text-\[5rem\] {
+  font-size: 5rem;
+}
+
+.text-\[15rem\] {
+  font-size: 15rem;
+}
+
+.text-\[10rem\] {
+  font-size: 10rem;
+}
+
+.text-\[8rem\] {
+  font-size: 8rem;
+}
+
+.text-\[2rem\] {
+  font-size: 2rem;
+}
+
+.text-\[1rem\] {
+  font-size: 1rem;
+}
+
 .font-black {
   font-weight: 900;
 }
@@ -2252,6 +2317,18 @@ hr
     max-height: 70vh;
   }
 
+  .lg\:max-h-\[60vh\] {
+    max-height: 60vh;
+  }
+
+  .lg\:max-h-\[40vh\] {
+    max-height: 40vh;
+  }
+
+  .lg\:max-h-\[55vh\] {
+    max-height: 55vh;
+  }
+
   .lg\:min-h-\[10vh\] {
     min-height: 10vh;
   }
@@ -2270,6 +2347,30 @@ hr
 
   .lg\:min-h-\[90vh\] {
     min-height: 90vh;
+  }
+
+  .lg\:min-h-full {
+    min-height: 100%;
+  }
+
+  .lg\:min-h-\[100vh\] {
+    min-height: 100vh;
+  }
+
+  .lg\:min-h-\[200vh\] {
+    min-height: 200vh;
+  }
+
+  .lg\:min-h-\[150vh\] {
+    min-height: 150vh;
+  }
+
+  .lg\:min-h-\[157vh\] {
+    min-height: 157vh;
+  }
+
+  .lg\:min-h-\[158vh\] {
+    min-height: 158vh;
   }
 
   .lg\:w-14 {
@@ -2344,6 +2445,22 @@ hr
     min-width: 100%;
   }
 
+  .lg\:min-w-\[10vw\] {
+    min-width: 10vw;
+  }
+
+  .lg\:min-w-\[18vw\] {
+    min-width: 18vw;
+  }
+
+  .lg\:min-w-\[17vw\] {
+    min-width: 17vw;
+  }
+
+  .lg\:min-w-\[16vw\] {
+    min-width: 16vw;
+  }
+
   .lg\:max-w-\[10vw\] {
     max-width: 10vw;
   }
@@ -2412,6 +2529,34 @@ hr
     max-width: 32rem;
   }
 
+  .lg\:max-w-\[45ch\] {
+    max-width: 45ch;
+  }
+
+  .lg\:max-w-\[60ch\] {
+    max-width: 60ch;
+  }
+
+  .lg\:max-w-\[70ch\] {
+    max-width: 70ch;
+  }
+
+  .lg\:max-w-\[15vw\] {
+    max-width: 15vw;
+  }
+
+  .lg\:max-w-\[18vw\] {
+    max-width: 18vw;
+  }
+
+  .lg\:max-w-\[17vw\] {
+    max-width: 17vw;
+  }
+
+  .lg\:max-w-\[16vw\] {
+    max-width: 16vw;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -2436,6 +2581,22 @@ hr
     gap: 5rem;
   }
 
+  .lg\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .lg\:gap-20 {
+    gap: 5rem;
+  }
+
+  .lg\:gap-16 {
+    gap: 4rem;
+  }
+
+  .lg\:gap-12 {
+    gap: 3rem;
+  }
+
   .lg\:self-center {
     align-self: center;
   }
@@ -2452,6 +2613,16 @@ hr
   .lg\:px-\[2\.5rem\] {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .lg\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .lg\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .lg\:pt-5 {
@@ -2503,6 +2674,18 @@ hr
 
   .lg\:text-\[5ch\] {
     font-size: 5ch;
+  }
+
+  .lg\:text-\[8ch\] {
+    font-size: 8ch;
+  }
+
+  .lg\:text-\[5rem\] {
+    font-size: 5rem;
+  }
+
+  .lg\:text-\[4rem\] {
+    font-size: 4rem;
   }
 
   .lg\:font-black {

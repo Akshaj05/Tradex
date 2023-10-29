@@ -64,7 +64,7 @@
 
     <!-- Nav Bar -->
     <nav
-      class="hidden lg:flex lg:min-w-full lg:min-h-[10vh] lg:bg-[#2D2C2C] lg:justify-between"
+      class="hidden lg:flex lg:min-w-full lg:min-h-[10vh] lg:bg-[#2D2C2C] lg:justify-between sticky top-0 z-1000"
     >
       <a href="#" class="my-auto ms-11 text-[3ch] text-white">
         <i class="icon fa-brands fa-slack icon-color"></i>
@@ -81,11 +81,11 @@
     <div class="flex flex-row">
       <!-- sidebar -->
       <section
-        class="hidden lg:block lg:min-h-[90vh] lg:min-w-[14vw] lg:max-w-[12vw] lg:bg-[#2D2C2C]"
+        class="hidden lg:block lg:min-h-[158vh] lg:min-w-[14vw] lg:max-w-[12vw] lg:bg-[#2D2C2C]"
       >
-        <ul class="text-left text-[#A39A9A] text-[1.2rem] pt-28">
+        <ul class="text-left text-[#A39A9A] text-[1.2rem] pt-28 sticky top-0">
           <li class="p-[2rem] text-white">
-            <a href="#">Home</a>
+            <a href="home_pg.html">Home</a>
           </li>
           <li class="p-[2rem]">
             <a href="market_graph.html">Market Graph</a>
@@ -99,9 +99,8 @@
           <li class="p-[2rem]">
             <a href="crypto_pg.html">Cryptocurrency</a>
           </li>
-          <hr class="max-w-[10vw] mx-auto" />
           <li class="p-[2rem]">
-            <a href="aboutUs_pg.html">About Us</a>
+            <a href="#">About Us</a>
           </li>
         </ul>
       </section>
@@ -109,15 +108,24 @@
       <section
         class="min-w-full min-h-[90vh] max-w-full lg:min-w-[84vw] lg:max-w-[84vw] bg-[#242121] text-white flex flex-col"
       >
-        <!-- <div class="min-h-20vh max-h-[20vh] min-w-full max-w-full lg:min-w-[80vw] lg:max-w-[80vw]">
+        <h1 class="py-5 text-center font-extrabold text-[4ch] lg:text-[8ch]">
+          Welcome To Tradex
+        </h1>
+        <p
+          class="py-5 text-center mx-auto text-[2ch] max-w-[35ch] lg:max-w-[80ch] lg:text-[3ch]"
+        >
+          At Tradext, we're dedicated to providing you with the most up-to-date
+          and accurate data on the ever-evolving world of stocks and
+          investments. Our platform is designed to empower both seasoned traders
+          and newcomers with the insights they need to make informed decisions.
+        </p>
 
-        </div> -->
         <div
-          class="image-slideshow min-w-full max-w-full relative lg:min-w-[85vw] lg:max-h-[50vh] lg:max-w-[85vw]"
+          class="image-slideshow min-w-full min-h-[35vh] max-w-full lg:min-w-[85vw] lg:max-h-[55vh] lg:max-w-[85vw]"
         >
           <div class="image fade">
             <img
-              class="min-w-full max-w-full relative lg:min-w-[86vw] lg:max-h-[70vh] lg:max-w-[86vw]"
+              class="min-w-full max-w-full relative lg:min-w-[85vw] lg:max-h-[55vh] lg:max-w-[85vw]"
               src="images/stocks-img-1(temp).png"
               alt=""
             />
@@ -125,17 +133,100 @@
 
           <div class="image fade">
             <img
-              class="min-w-full max-w-full relative lg:min-w-[86vw] lg:max-h-[70vh] lg:max-w-[86vw]"
+              class="min-w-full max-w-full relative lg:min-w-[85vw] lg:max-h-[55vh] lg:max-w-[85vw]"
               src="images/stocks-img-2 (2).png"
               alt=""
             />
           </div>
           <div class="image fade">
             <img
-              class="min-w-full max-w-full relative lg:min-w-[86vw] lg:max-h-[70vh] lg:max-w-[86vw]"
+              class="min-w-full max-w-full relative lg:min-w-[85vw] lg:max-h-[55vh] lg:max-w-[85vw]"
               src="images/stocks-img-3.jpg"
               alt=""
             />
+          </div>
+        </div>
+
+        <h1
+          class="text-[3ch] text-center font-semibold lg:py-10 lg:text-[4rem]"
+        >
+          Overviw About Our Services
+        </h1>
+
+        <div
+          class="flex flex-col justify-center content-center lg:flex-row py-3 gap-6 lg:gap-12"
+        >
+          <div
+            class="bg-[#2D2C2C] min-w-[85vw] max-w-[85vw] flex flex-col justify-center content-center self-center py-10 lg:min-w-[18vw] lg:max-w-[18vw] rounded-3xl"
+          >
+            <div class="border-white self-center">
+              <i class="fa-solid fa-chart-line p-5 text-[5rem] text-white"></i>
+            </div>
+            <h1 class="text-white opacity-50 text-center py-3 text-[3ch]">
+              Maket Graph
+            </h1>
+            <p
+              class="text-white py-3 text-[1rem] max-w-[35ch] text-center self-center"
+            >
+              A market graph is a visual representation of price fluctuations
+              and trends in financial markets, helping investors analyze and
+              make decisions.
+            </p>
+          </div>
+
+          <div
+            class="bg-[#2D2C2C] min-w-[85vw] max-w-[85vw] flex flex-col justify-center content-center self-center py-10 lg:min-w-[18vw] lg:max-w-[18vw] rounded-3xl"
+          >
+            <div class="border-white self-center">
+              <i class="fa-solid fa-database p-5 text-[5rem] text-white"></i>
+            </div>
+            <h1 class="text-white opacity-50 text-center py-3 text-[3ch]">
+              Maket Data
+            </h1>
+            <p
+              class="text-white py-3 text-[1rem] max-w-[35ch] text-center self-center"
+            >
+              Market data comprises real-time and historical information on
+              stock prices, trading volume, and related financial metrics, vital
+              for investment analysis
+            </p>
+          </div>
+
+          <div
+            class="bg-[#2D2C2C] min-w-[85vw] max-w-[85vw] flex flex-col justify-center content-center self-center py-10 lg:min-w-[18vw] lg:max-w-[18vw] rounded-3xl"
+          >
+            <div class="border-white self-center">
+              <i
+                class="fa-solid fa-hand-holding-dollar p-5 text-[5rem] text-white"
+              ></i>
+            </div>
+            <h1 class="text-white opacity-50 text-center py-3 text-[3ch]">
+              Cross Rates
+            </h1>
+            <p
+              class="text-white py-3 text-[1rem] max-w-[35ch] text-center self-center"
+            >
+              Cross rates are exchange rates between currencies not involving
+              the domestic currency, facilitating comparisons and international
+              trade in currency markets
+            </p>
+          </div>
+          <div
+            class="bg-[#2D2C2C] min-w-[85vw] max-w-[85vw] flex flex-col justify-center content-center self-center py-10 lg:min-w-[18vw] lg:max-w-[18vw] rounded-3xl"
+          >
+            <div class="border-white self-center">
+              <i class="fa-brands fa-bitcoin p-5 text-[5rem] text-white"></i>
+            </div>
+            <h1 class="text-white opacity-50 text-center py-3 text-[3ch]">
+              Cryptocurrency
+            </h1>
+            <p
+              class="text-white py-3 text-[1rem] max-w-[35ch] text-center self-center"
+            >
+              Cryptocurrencies are digital or virtual currencies using
+              cryptography for security. They operate on decentralized
+              blockchain technology and enable peer-to-peer transactions.
+            </p>
           </div>
         </div>
       </section>
