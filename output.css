@@ -2109,7 +2109,6 @@ hr
 .select-container
 {
   display: flex;
-  position: relative;
 }
 
 .select-box
